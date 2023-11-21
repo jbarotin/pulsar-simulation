@@ -11,7 +11,7 @@ public class PulsarConfig {
 
     public static final String topicName = "persistent://public/default/simulation.test";
 
-    public static final String brokerUrls = "pulsar://10.56.0.63:6650,10.56.0.55:6650,10.56.0.94:6650";
+    public static final String brokerUrls = "pulsar://localhost:6650";
 
     public static final String keyField = "key";
     public static final String messageField = "message";

@@ -27,7 +27,7 @@ grep idle simulation.consumer1.log simulation.consumer2.log simulation.consumer3
 
 get end if the simulation
 ```
-grep idle simulation.consumer1.log simulation.consumer2.log simulation.consumer3.log | sort |head -n 1
+grep idle simulation.consumer1.log simulation.consumer2.log simulation.consumer3.log | sort |tail -n 1
 ```
 
 generate statistics
